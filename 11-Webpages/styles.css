@@ -1,0 +1,35 @@
+/* Add your styles here */
+  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+  }
+  .container{
+      display: flex
+  }
+  
+  .foo {
+    outline: 1px solid orange;
+    background-color: #87CEEB;
+    margin-left: 4%;
+    margin-bottom: 4%;
+  }
+
+  .boo {
+    font-size: 30;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid #000;
+  }
+  th.from, th.date {
+    width: 15%
+  }
+  th.subject {
+    width: 70%; /* Not necessary, since only 70% width remains */
+  }
